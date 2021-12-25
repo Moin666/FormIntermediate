@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!--Header Section Start-->
+        <section >
+            <div class="container heading text-center" style="background-color: #3b5998;">
+                <div class=" w-100 h-100 d-flex flex-column justify-content-between align-items-center div_fl">
+
+                    <h1 class="w-100 h-100">BOARD OF INTERMEDIATE EDUCATION, KARACHI</h1>
+                </div>
+            </div>
+        </section>
+<!--Header Section End-->
+
+<!--From Section Start-->
+    <section id="dislaysection">
+            <div class="container bg-light">
+                    <div class="main p-4" id="mainDiv">
+                        <h5 class="my-1 person" >Personal Details</h5>
+                            <div class="row my-3" >
+                                <div class="col md-2">
+                                    <label for="">First Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder">  <i class="fad fa-user "></i></p>
+                                        <p class="firstNameAvater w-100">   <input type="text" class="firstNameField w-100 h-100" id="firstName"></p>
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label for="">Last Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder">  <i class="fad fa-user "></i></p>
+                                        <p class="firstNameAvater w-100" >   <input   type="text" class="firstNameField w-100 h-100" id="lastName"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100" for="">Fathre Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder">  <i class="fad fa-user "></i></p>
+                                        <p class="firstNameAvater w-100">   <input  type="text" class="firstNameField w-100 h-100" id="fatherName"></p>
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label for="">Father's Last Name</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder">  <i class="fad fa-user "></i></p>
+                                        <p class="firstNameAvater w-100">   <input type="text"  class="firstNameField w-100 h-100" id="fatherNameLast"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100 " for="">Date Of Birth</label>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="d-flex justify-content-center  ">
+                                       <!-- <p class="avatarBorder">  <i class="far fa-flag"></i></p> -->
+                                        <p class="firstNameAvater w-100 p-1">   <input type="date" class="firstNameField w-100 h-100" id="dataOFBirth"></p>
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label for="">Nationality</label>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="d-flex w-100 h-100">
+                                       <p class="avatarBorder p-1">  <i class="far fa-flag w-100 h-100"></i></p>
+                                     
+                                       <p class="firstNameAvater  w-100  p-1">   
+                                            <select id="country" name="country">
+                                                <option value="Pakistan">Pakistan</option>
+                                                <option value="Albania">Albania</option>
+                                                <option value="Algeria">Algeria</option>
+                                                <option value="American Samoa">American Samoa</option>
+                                                <option value="Andorra">Andorra</option>
+                                                <option value="Angola">Angola</option>
+                                                <option value="Anguilla">Anguilla</option>
+                                                <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                                                <option value="Argentina">Argentina</option>
+                                                <option value="Armenia">Armenia</option>
+                                            </select>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label for="">Gender</label>
+                                </div>
+                                <div class="col-md-2    ">
+                                    <div class="d-flex">                               
+                                        <p class="">   
+                                            <input class="me-2" type="radio" id="Male"  name = "option" value="1">Male
+                                            <input class="ms-2 me-2"  type="radio" id="Female" name = "option" value="2" > Female
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100" for="">Postal Address</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder p-1"><i class="fal fa-address-card fa-lg"></i> </p>
+                                        <p class="firstNameAvater w-100">   <input type="text" class="firstNameField w-100 h-100" id="Postal"></p>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100" for="">Permanent Address</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder p-1"><i class="fal fa-address-card fa-lg"></i> </p>
+                                        <p class="firstNameAvater w-100">   <input type="text" class="firstNameField w-100 h-100"  id="Permanent"></p>
+                                    </div>
+                                </div>
+                            
+                            </div>
+
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100" for="">Phone Home</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder p-1"><i class="fad fa-phone-office"></i></p>
+                                        <p class="firstNameAvater w-100">   <input type="number" class="firstNameField w-100 h-100" id="Phone"></p>
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label class="w-100" for="">Mobile</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex">
+                                       <p class="avatarBorder p-1"><i class="fad fa-phone"></i> </p>
+                                        <p class="firstNameAvater w-100">   <input type="number" class="firstNameField w-100 h-100" id="Mobile"></p>
+                                    </div>
+                                </div>
+                            
+                            </div>
+
+
+                            
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100 " for="">Mark OF IDENTIFICATION</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex justify-content-center  ">
+                                       <!-- <p class="avatarBorder">  <i class="far fa-flag"></i></p> -->
+                                        <p class="firstNameAvater w-100 p-1">   <input type="text" class="firstNameField w-100 h-100" id="Mark"></p>
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label for="">Postal Code</label>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="d-flex">
+                                        <p class="firstNameAvater w-100 p-1">   <input type="number" maxlength="5" class="firstNameField w-100 h-100" id="postalCode"></p>                    
+                                    </div>
+                                </div>
+                              
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col md-2">
+                                    <label class="w-100 " for="">CNIC</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex justify-content-between ">
+                                       <!-- <p class="avatarBorder">  <i class="far fa-flag"></i></p> -->
+                                        <!-- <p class="w-100 p-1">    -->
+                                                <input type="text "    maxlength="1" class="cnicField">
+                                                <input type="text "  maxlength="1" class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <span>-</span>
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text "  maxlength="1" class="cnicField">
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                                <input type="text " maxlength="1"  class="cnicField">
+                                                <span>-</span>
+                                                <input type="text "   maxlength="1"class="cnicField">
+                                          
+                                             
+                                        <!-- </p> -->
+                                    </div>
+                                </div>
+                                <div class="col md-2">
+                                    <label class="w-100 " for="">Religion</label>
+                                </div>
+                                <div class="col md-2">
+                                    <input type="radio" name="religion" value="1" id="muslim" class="ms-1"> Mus
+                                    <input type="radio"  name="religion" value="0" id = "nonMuslim" class="ms-1"> Non Mus
+                                </div>
+                                <!-- <div class="col md-2">
+                                    <label for="">Postal Code</label>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="d-flex">
+                                        <p class="firstNameAvater w-100 p-1">   <input type="number" maxlength="5" class="firstNameField"></p>                    
+                                    </div>
+                                </div> -->
+                              
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col md-2">
+                                    <label class="w-100 " for="">Photo Upload</label>
+                                </div>
+
+                                <div class="col-md-10">
+                                    <!-- <form action="/action_page.php"> -->
+                                        <input type="file" id="myFile" name="filename"  id="Photo">
+                                        <input type="submit" class="btn btn-dark" onclick="dataSubmit()">
+                                      <!-- </form> -->
+                                </div>
+                            </div>
+                          
+                             
+                    </div>
+                 
+
+
+
+
+
+            </div>
+        </section>
+<!--From Section End-->
+
+<!--Compulsory Section Start-->
+
+<section id="dislaysection2"> 
+    <div class="container bg-light">
+            <div class="main p-5" id="tableDiv">
+                <h3>COMPULSORY SUBJECTS</h3>
+                <table>
+                    
+
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th colspan="2">Subjects</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                  
+                    <tr>
+       
+                        <td><input type="checkbox" class="checkBOX"></td>
+                        <td>Urdu Normal</td>
+                        <td>FOR NORMAL CANDIDATES</td>
+                       
+                    </tr>
+                    <tr>
+       
+                        <td><input type="checkbox"></td>
+                        <td>Urdu EASY</td>
+                        <td>WITH BOARD PERMISSION</td>
+                       
+                    </tr>   <tr>
+       
+                        <td><input type="checkbox"></td>
+                        <td>Urdu NON MOTHER LANG</td>
+                        <td>WITH BOARD PERMISSION</td>
+                       
+                    </tr> </tr>   <tr>
+       
+                        <td><input type="checkbox"></td>
+                        <td colspan="2"> ENGLISH NORMAL</td>
+                       
+                       
+                    </tr>
+                    
+      
+                </tbody>
+                </table>
+
+
+
+            </div>
+
+    </div>
+
+
+</section>
+<!--Compulsory Section End-->
+
+
+
+
+<section id="hiddenSection">
+    <div class="container bg-light">
+            <div class="main p-5" id="tableDiv">
+                <h3>Successfully Generated Form</h3>
+                <table>
+                    
+
+                    <thead>
+                        <tr>
+                            <th>S.no</th>
+                            <th>Field Name</th>
+                            <th colspan="2">User Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                  
+                    <tr>
+       
+                        <td>1</td>
+                        <td>First Name</td>
+                        <td><span id="firstnamehidden"> </span></td>
+                       
+                    </tr>
+                    <tr>
+       
+                        <td>2</td>
+                        <td>Last Name</td>
+                        <td><span id="lastNamehidden"></span</td>
+                       
+                    </tr>   
+                    <tr>
+                        <td>3</td>
+                        <td>Father's First Name</td>
+                        <td><span id="fatherNamehidden"></span></td>
+                       
+                    </tr> 
+                   
+                    <tr>
+                        <td>3</td>
+                        <td>Father's Last Name</td>
+                        <td><span id="fatherLastNamehidden"></span></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Date Of bitj</td>
+                        <td>  <span id="dataOFBirthhidden"></span></td>            
+                    </tr>
+            
+                    <tr>
+                        <td>3</td>
+                        <td>Nationality</td>
+                        <td><span id="nationalityhidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Gender</td>
+                        <td>     <span id="Malehidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Postal Address</td>
+                        <td>     <span id="Postalhidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Permanent Address</td>
+                        <td> <span id="Permanehidden"></span></td>            
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Phone Home</td>
+                        <td> <span id="Phonehidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mobile Numbe</td>
+                        <td> <span id="Mobilehidden"></span></td>            
+                    </tr>
+               
+                    <tr>
+                        <td>3</td>
+                        <td>Postal Code</td>
+                        <td> <span id="postalCodehidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mark Of Identification</td>
+                        <td> <span id="Markhidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>CNIC</td>
+                        <td> <span id="cnichidden"></span></td>            
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>RELIGION</td>
+                        <td> <span id="religionHidden"></span></td>            
+                    </tr>
+               
+                </tbody>
+                </table>
+
+
+
+            </div>
+
+    </div>
+
+
+</section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+    <!-- Option 2: Sepsarate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
